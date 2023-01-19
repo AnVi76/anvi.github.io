@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+body {
+  font-family: Roboto, Michroma;
+  background: white
+}
+
+
+div{
+	border-radius: 10px;
+}
+.nav-link {
+  color: rgb(39, 75, 69);
+}
+
+p{ color: rgb(16, 17, 17);
+margin: 10px ;}
+
+.navbar-nav .nav-link.active {
+  color: rgb(38, 80, 80);
+}
+.navbar-brand img {
+  width: 50px;
+}
+.card {
+  box-shadow: 6px 8px 17px 0px #000;
+  color: rgb(0, 0, 0);
+}
+.card a {
+  text-decoration: none;
+  color: #000;
+}
+.carousel-item{ background-color: rgb(151, 153, 156);
+}
+.sidebar {
+	background-color: rgb(151, 153, 156);
+  color: rgb(21, 22, 22)}
+.carousel-control-next{ color: black;}
+
+footer, .btn-outline-primary {
+    background: rgb(39, 75, 69);
+}
+.slide-text,
+.footer-text {
+  color: aquamarine;
+  margin: auto auto;
+}
+
+.call-anim{ animation: myAnim 2s ease 1s infinite normal forwards;
+	
+}
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+
+
+.media-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
